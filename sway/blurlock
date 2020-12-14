@@ -1,0 +1,13 @@
+#! /bin/sh
+
+# Muting volume before lock
+pamixer -m
+
+# Blurring screen
+grim -t jpeg -q 10 /tmp/lockpic.jpeg
+vips gaussblur /tmp/lockpic.jpeg /tmp/lockpic2.jpeg 6
+rm /tml/lockpic.jpeg
+
+# Setting english layout
+swaymsg input \* xkb_switch_layout 0
+swaylock -fe -i /tmp/lockpic2.jpeg

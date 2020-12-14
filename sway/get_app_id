@@ -1,0 +1,17 @@
+#! /usr/bin/python
+
+from i3ipc import Connection
+from os import system
+
+focused = Connection().get_tree().find_focused()
+
+if not focused:
+    exit(0)
+
+payload = f"""
+app_id: "{focused.app_id}"
+class:  "{focused.window_class}"
+title:  "{focused.window_title}"
+"""[1:]
+
+system(f"notify-send 'Application Status' '{payload}'")

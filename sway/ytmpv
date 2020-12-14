@@ -1,0 +1,3 @@
+#! /bin/sh
+
+mpv --hwdec=vaapi --gpu-context=wayland --vo=gpu --force-window --ytdl -- $(wl-paste) & disown
