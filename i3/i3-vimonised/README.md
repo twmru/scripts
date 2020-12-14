@@ -1,5 +1,5 @@
 Here are the skripts used in i3-vimonised.
-Main repisitory is here https://github.com/0Karakurt0/i3-vimonised
+[Main repisitory](https://github.com/0Karakurt0/i3-vimonised)
 
 ### Last action
 A small demon for storing last command sent to i3
