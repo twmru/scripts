@@ -6,3 +6,20 @@ This is a script collection from Russian Tiling WM Community
 You can find various scripts for different tiling wms here  
 If you want to contribute, read CONTRIBUTION.md guidelines first
 
+#### i3
+- [Window slicer](i3/window_slicer.sh)
+- [last action](i3/i3-vimonised/i3-last_action.sh)
+- [repeater](i3/i3-vimonised/i3_repeater.sh)
+- [resizer](i3/i3-vimonised/i3-resizer.sh)
+
+#### sway
+- [auto layout swtch](sway/auto_switch_kbd.py)
+- [auto bluetooth connection](sway/autobtconnect.sh)
+- [blurlock](sway/blurlock)
+- [clipboard action](sway/clipboard_action.sh)
+- [firefox history in bemeny](sway/firefox_history_bemenu.sh)
+- [get app id](sway/get_app_id)
+- [mpv music](sway/mpv_music.sh)
+- [websearch](sway/websearch.sh)
+- [wsudo](sway/wsudo)
+- [ytmpv](sway/ytmpv)
