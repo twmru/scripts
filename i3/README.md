@@ -1,10 +1,10 @@
-### Window Slicer
+## Window Slicer
 Script mainly for fun, can "cut" any window based on cursor position
 
-Usage:
+##### Usage:
 ```window_slicer [hor|ver]```
 
-Requirements:
+##### Requirements:
 * jq
 * xdotool
 * i3-msg (obviously)
