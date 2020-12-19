@@ -19,7 +19,7 @@
 
 ### Submission
 
-* Project is submitted to the contest if [Judge](t.me/lamalove) receives link to your project or `PR`
+* Project is submitted to the contest if [Judge](https://t.me/lamalove) receives link to your project or `PR`
 * Projects must be submitted earlier than this contests finish
 
 ## Judgement
