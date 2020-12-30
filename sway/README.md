@@ -7,7 +7,9 @@ Requirements:
 
 Description:
 
-Switches keyboard layout from en to ru depending on cureently focues app
+Remembers keyboard layout for each window and restores it  
+You need to set the `--kb-id` to your keyboard ID that you can get via `swaymsg -t get_inputs`  
+See `--help` for more information
 
 ### autobtconnect.sh
 

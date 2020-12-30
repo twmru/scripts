@@ -20,6 +20,7 @@ If you want to contribute, read CONTRIBUTION.md guidelines first
 - [firefox history in bemeny](sway/firefox_history_bemenu.sh)
 - [get app id](sway/get_app_id)
 - [mpv music](sway/mpv_music.sh)
+- [smart layout](sway/smart_layout.py)
 - [websearch](sway/websearch.sh)
 - [wsudo](sway/wsudo)
 - [ytmpv](sway/ytmpv)
