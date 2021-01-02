@@ -1,5 +1,17 @@
 # Tiling WM Mastery Chat Scripts Contest
 
+## Results board
+
+### Candidates
+
+* NackNime [auto keyboard switch script](https://github.com/twmru/scripts/pull/4)
+* LazinessItself [i3-vimonised](https://github.com/0Karakurt0/i3-vimonised)
+* HeyLazySunnyKid [heyteiler extension](https://github.com/HeyLazySunnyKid/heyteiler/releases/tag/v4.0-beta)
+
+### Scores
+
+WIP
+
 ## Rules
 
 ### What can be done
