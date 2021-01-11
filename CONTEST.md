@@ -10,7 +10,16 @@
 
 ### Scores
 
-WIP
+* Is the code working, or not
+* Usefullness
+* Usability (guides, installation, ease of use)
+* Configurability
+
+| Script | Workability | Usefullness | Usability | Configurability |
+|:---|---|---|---|---:|
+| smart layout | 3 | 2 (has analog written in C) | 2 (could be implemented in systemd user unit) | 1 (could be more configurable, for example apps white/black listing, persistent layouts and stuff) |
+| i3-vimonised | 1 (has no installation instructions, copying into `.config/i3` didn't work) | 3 (idea is great btw) | 2 (no installation instructions, no guides, but has keybindings in `README.md`) | 2 (has no configuration, personal programs included in config) |
+| heyteiler | TODO | | | |
 
 ## Rules
 
