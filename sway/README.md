@@ -87,18 +87,22 @@ Requirements:
 
 * bemenu
 * s
+* youtube-dl (optional)
+* [ytmpv](sway/ytmpv)
 
-Selects search-engine and opens search in browser
+Selects search-engine and opens search in browser  
+It supports choosing `searx` instance and  
+opening youtube video (`youtubev`) via `ytmpv` script
 
 ### wsudo
 
 Requirements:
 
-* Xwayland
+* Xwayland (optional)
 
 Description:
 
-Run wayland app in sudo via Xwayland
+Run wayland app in other user natively or via Xwayland
 
 ### ytmpv
 
@@ -110,3 +114,16 @@ Requirements:
 Description:
 
 Plays youtube video from clipboard with hardware acceleration
+
+
+### fzf-images
+
+Requirements:
+
+* fd (can be rewritten to use `find`)
+* fzf
+* imv
+
+Description:
+
+Opens `imv` in separate window and shows selected image in preview

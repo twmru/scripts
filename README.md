@@ -23,3 +23,4 @@ If you want to contribute, read CONTRIBUTION.md guidelines first
 - [websearch](sway/websearch.sh)
 - [wsudo](sway/wsudo)
 - [ytmpv](sway/ytmpv)
+- [fzf-images](sway/fzf-images)

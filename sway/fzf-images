@@ -1,0 +1,4 @@
+#! /bin/sh
+imv & disown
+IMV=$(pgrep imv) && \
+fd -e png -e jpg -e jpeg | fzf --preview "imv-msg $IMV open {}; imv-msg $IMV goto -1" --preview-window=:0
