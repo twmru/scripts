@@ -1,0 +1,14 @@
+#!/bin/sh
+
+IMG=/tmp/tesseractor_tmp_image.png
+TXT=/tmp/tesseractor_tmp_text
+
+slurp | grim -g- $IMG && \
+tesseract $IMG $TXT -l eng+rus && \
+cat $TXT.txt |  wl-copy -n && \
+wl-paste -n | clipman store --notify
+
+notify-send "Tesseractor: Text copied"
+
+rm $TXT.txt
+rm $IMG

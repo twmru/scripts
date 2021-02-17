@@ -127,3 +127,34 @@ Requirements:
 Description:
 
 Opens `imv` in separate window and shows selected image in preview
+
+
+### tesseractor
+
+Requirements:
+
+* tesseract with rus and eng data
+* grim
+* slurp
+* notify-send
+* wl-clipboard
+* clipman
+
+Description:
+
+Detects russian and english text on selected area of the screen
+
+
+### crowscream
+
+Requirements:
+
+* crow-translate
+* notify-send
+* wl-clipboard
+* bemenu
+
+Description:
+
+Translates text from clipboard (or written into menu) and
+shows translation in notification
