@@ -1,8 +1,7 @@
-#!/bin/sh
-#small script to enable root access to x-windows system
-xhost +SI:localuser:root
-sudo $1
-#disable root access after application terminates
-xhost -SI:localuser:root
-#print access status to allow verification that root access was removed
-xhost
+#! /bin/sh
+
+sudo --preserve-env=XDG_RUNTIME_DIR,WAYLAND_DISPLAY $1 || (
+	host +SI:localuser:root && \
+	sudo $1 \
+	xhost -SI:localuser:root
+)

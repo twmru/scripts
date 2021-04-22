@@ -23,3 +23,9 @@ If you want to contribute, read CONTRIBUTION.md guidelines first
 - [websearch](sway/websearch.sh)
 - [wsudo](sway/wsudo)
 - [ytmpv](sway/ytmpv)
+<<<<<<< HEAD
+=======
+- [fzf-images](sway/fzf-images)
+- [tesseractor](sway/tesseractor)
+- [crowscream](sway/crowscream)
+>>>>>>> upstream/main

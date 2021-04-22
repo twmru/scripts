@@ -1,0 +1,5 @@
+#! /bin/sh
+
+REQUEST="$(wl-paste | bemenu -p "crow> ")" && \
+RESPONSE="$(crow -e google -t ru "$REQUEST")" && \
+notify-send "Crow screams:" "$RESPONSE"

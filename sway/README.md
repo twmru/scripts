@@ -90,6 +90,13 @@ Requirements:
 
 Selects search-engine and opens search in browser
 
+* youtube-dl (optional)
+* [ytmpv](sway/ytmpv)
+
+Selects search-engine and opens search in browser  
+It supports choosing `searx` instance and  
+opening youtube video (`youtubev`) via `ytmpv` script
+
 ### wsudo
 
 Requirements:
@@ -99,6 +106,12 @@ Requirements:
 Description:
 
 Run wayland app in sudo via Xwayland
+
+* Xwayland (optional)
+
+Description:
+
+Run wayland app in other user natively or via Xwayland
 
 ### ytmpv
 
@@ -110,3 +123,47 @@ Requirements:
 Description:
 
 Plays youtube video from clipboard with hardware acceleration
+
+
+### fzf-images
+
+Requirements:
+
+* fd (can be rewritten to use `find`)
+* fzf
+* imv
+
+Description:
+
+Opens `imv` in separate window and shows selected image in preview
+
+
+### tesseractor
+
+Requirements:
+
+* tesseract with rus and eng data
+* grim
+* slurp
+* notify-send
+* wl-clipboard
+* clipman
+
+Description:
+
+Detects russian and english text on selected area of the screen
+
+
+### crowscream
+
+Requirements:
+
+* crow-translate
+* notify-send
+* wl-clipboard
+* bemenu
+
+Description:
+
+Translates text from clipboard (or written into menu) and
+shows translation in notification
