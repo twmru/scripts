@@ -89,6 +89,9 @@ Requirements:
 
 * bemenu
 * s
+
+Selects search-engine and opens search in browser
+
 * youtube-dl (optional)
 * [ytmpv](sway/ytmpv)
 
@@ -99,6 +102,12 @@ opening youtube video (`youtubev`) via `ytmpv` script
 ### wsudo
 
 Requirements:
+
+* Xwayland
+
+Description:
+
+Run wayland app in sudo via Xwayland
 
 * Xwayland (optional)
 
