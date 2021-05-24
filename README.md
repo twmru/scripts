@@ -11,6 +11,7 @@ If you want to contribute, read CONTRIBUTION.md guidelines first
 - [last action](i3/i3-vimonised/i3-last_action.sh)
 - [repeater](i3/i3-vimonised/i3_repeater.sh)
 - [resizer](i3/i3-vimonised/i3-resizer.sh)
+- [dropdown terminal](i3/dropdown_terminal.sh)
 
 #### sway
 - [auto layout swtch](sway/auto_switch_kbd.py)
@@ -23,9 +24,6 @@ If you want to contribute, read CONTRIBUTION.md guidelines first
 - [websearch](sway/websearch.sh)
 - [wsudo](sway/wsudo)
 - [ytmpv](sway/ytmpv)
-<<<<<<< HEAD
-=======
 - [fzf-images](sway/fzf-images)
 - [tesseractor](sway/tesseractor)
 - [crowscream](sway/crowscream)
->>>>>>> upstream/main
