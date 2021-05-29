@@ -1,0 +1,29 @@
+#!/bin/bash
+# this script will disconnect touchpad when mouse connected
+# first of all we need to be sure sway started:
+if [ -n $(pgrep -x sway) ] 
+then
+
+# get user id. (id -u) doesnt work for me, IDK why.
+    USER_NAME=$(who | awk -v vt=tty$(fgconsole) '$0 ~ vt {print $1}')
+    USER_ID=$(id -u "$USER_NAME")
+
+    #export some sway usefull thinks
+	export SWAYSOCK="/run/user/$USER_ID/sway-ipc.$USER_ID.$(pgrep -x sway).sock"
+	export DBUS_SESSION_BUS_ADDRESS="unix:path=/run/user/${USER_ID}/bus"
+
+    # "$1" passed from  touchpad rule connected/disconnected
+    	[ "$1" == "connected" ] && MESS="disabled" || MESS="enabled"
+
+# send notification to dunst
+# tryied send to System
+# notify-send -a System -t 20000 Undocked
+# it doesn't  work with dunst, so
+# you can use notisy-send, np
+    su $(id -nu $USER_ID) -c "dunstify  SYSTEM: 'Touchpad $MESS' "
+    	
+	# finally, command to enable/disable touchpad
+	swaymsg input type:touchpad events $MESS
+fi
+
+

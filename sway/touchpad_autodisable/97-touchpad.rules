@@ -1,0 +1,7 @@
+ACTION=="add" \
+, SUBSYSTEM=="input", KERNEL=="mouse[0-9]*"  \
+, RUN+="/etc/udev/scripts/touchpad connected"
+
+ACTION=="remove" \
+, SUBSYSTEM=="input", KERNEL=="mouse[0-9]*"  \
+, RUN+="/etc/udev/scripts/touchpad disconnected"

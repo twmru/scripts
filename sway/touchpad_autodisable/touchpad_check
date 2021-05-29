@@ -1,0 +1,24 @@
+#!/bin/bash
+# script to enable/disable touchpad
+# when system start
+
+# wait while sway is starting
+sleep 5
+
+# Check if mouse  connected
+# I'm on sway, so
+if [ -n $(pgrep -x sway)  ]
+then
+	# My touchpad always connected as 2 mouse
+	# in my case shall be MORE than TWO mouse
+	# If you find more better way to check them, tell me plz
+	if [ $(ls /dev/input | grep mouse | wc -l) -gt 2 ]
+	then
+		swaymsg input type:touchpad events disabled
+		dunstify "SYSTEM:" "Touchpad disabled"
+	else
+		dunstify "SYSTEM:" "No mouse found"
+	fi
+fi
+
+
