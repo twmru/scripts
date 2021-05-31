@@ -32,3 +32,4 @@ If you want to contribute, read CONTRIBUTION.md guidelines first
 
 #### bspwm
 - [btops](https://github.com/ivanmilov/btops), [original](https://github.com/roberteinhaus/btops): bspwm desktop management that supports dymanic appending, removing, and renaming (like extended i3icons)
+- [bsp-layout](https://github.com/ivanmilov/bsp-layout), [original](https://github.com/phenax/bsp-layout): Manage layouts (tall and wide)
