@@ -2,8 +2,8 @@
 
 ## Welcome
 
-This is a script collection from Russian Tiling WM Community  
-You can find various scripts for different tiling wms here  
+This is a script collection from Russian Tiling WM Community
+You can find various scripts for different tiling wms here
 If you want to contribute, read CONTRIBUTION.md guidelines first
 
 #### i3
@@ -28,3 +28,7 @@ If you want to contribute, read CONTRIBUTION.md guidelines first
 - [fzf-images](sway/fzf-images)
 - [tesseractor](sway/tesseractor)
 - [crowscream](sway/crowscream)
+
+
+#### bspwm
+- [btops](https://github.com/ivanmilov/btops), [original](https://github.com/roberteinhaus/btops): bspwm desktop management that supports dymanic appending, removing, and renaming (like extended i3icons)
