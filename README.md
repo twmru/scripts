@@ -2,8 +2,8 @@
 
 ## Welcome
 
-This is a script collection from Russian Tiling WM Community  
-You can find various scripts for different tiling wms here  
+This is a script collection from Russian Tiling WM Community
+You can find various scripts for different tiling wms here
 If you want to contribute, read CONTRIBUTION.md guidelines first
 
 #### i3
@@ -11,6 +11,7 @@ If you want to contribute, read CONTRIBUTION.md guidelines first
 - [last action](i3/i3-vimonised/i3-last_action.sh)
 - [repeater](i3/i3-vimonised/i3_repeater.sh)
 - [resizer](i3/i3-vimonised/i3-resizer.sh)
+- [i3icon2](https://github.com/ivanmilov/i3icons2), [original](https://github.com/nwhirschfeld/i3icons2): deamon to rename workspaces with fontawesome-icons based on open applications
 
 #### sway
 - [auto layout swtch](sway/auto_switch_kbd.py)
@@ -27,3 +28,8 @@ If you want to contribute, read CONTRIBUTION.md guidelines first
 - [fzf-images](sway/fzf-images)
 - [tesseractor](sway/tesseractor)
 - [crowscream](sway/crowscream)
+
+
+#### bspwm
+- [btops](https://github.com/ivanmilov/btops), [original](https://github.com/roberteinhaus/btops): bspwm desktop management that supports dymanic appending, removing, and renaming (like extended i3icons)
+- [bsp-layout](https://github.com/ivanmilov/bsp-layout), [original](https://github.com/phenax/bsp-layout): Manage layouts (tall and wide)
