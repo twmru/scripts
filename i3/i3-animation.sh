@@ -14,11 +14,11 @@ while [ $# -gt 0 ]; do
         -i  | --window-id)
             window_id="$2"
             shift 2             ;;
-        -v  | --vertical)
+        -V  | --vertical)
             accis="1"
             direction="$2"
             shift 2             ;;
-        -h  | --horisontal)
+        -H  | --horisontal)
             accis="0"
             direction="$2"
             shift 2             ;;
