@@ -29,6 +29,7 @@ If you want to contribute, read CONTRIBUTION.md guidelines first
 - [fzf-images](sway/fzf-images)
 - [tesseractor](sway/tesseractor)
 - [crowscream](sway/crowscream)
+- [animator](sway/sway-animator.sh)
 
 
 #### bspwm
