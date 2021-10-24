@@ -169,3 +169,14 @@ Description:
 
 Translates text from clipboard (or written into menu) and
 shows translation in notification
+
+
+### animator
+
+Requirements:
+* jq
+* swaymsg
+
+Description:
+
+Animates window moving along one axis using swaymsg.
