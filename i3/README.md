@@ -31,4 +31,18 @@ For full list please read skript itself or start it with --help flag
 
 #### Requirements
 * i3-msg
-* jq (optional, used for automatic resolution detection)
+* jq (optional, used for automatic resolution detection, but needs to be commented out)
+
+## Pin Workspaces
+A hacky way to make i3wm keep workspaces even if there are no windows on them
+
+#### Usage
+``` i3-workspace-holder.sh start|stop [OPTIONS] -- Name1 Name2 ...
+Options:
+    -W | --width      Display width
+    -H | --height     Display height
+    -h | --help       This message```
+
+#### Requirements
+* i3-msg
+* jq (optional, used for automatic resolution detection, but needs to be commented out)

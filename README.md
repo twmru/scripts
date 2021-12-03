@@ -13,6 +13,7 @@ If you want to contribute, read CONTRIBUTION.md guidelines first
 - [resizer](i3/i3-vimonised/i3-resizer.sh)
 - [dropdown terminal](i3/dropdown_terminal.sh)
 - [window animator](i3/i3-animation.sh)
+- [pin workspaces](i3/i3-workspace-holder.sh)
 - [i3icon2](https://github.com/ivanmilov/i3icons2), [original](https://github.com/nwhirschfeld/i3icons2): deamon to rename workspaces with fontawesome-icons based on open applications
 
 #### sway
