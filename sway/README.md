@@ -175,6 +175,10 @@ shows translation in notification
 
 Requirements:
 * jq
+<<<<<<< HEAD
+=======
+* swaymsg
+>>>>>>> upstream/main
 
 Description:
 
