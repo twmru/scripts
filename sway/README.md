@@ -175,7 +175,6 @@ shows translation in notification
 
 Requirements:
 * jq
-* swaymsg
 
 Description:
 
