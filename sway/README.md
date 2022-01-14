@@ -180,3 +180,14 @@ Requirements:
 Description:
 
 Animates window moving along one axis using swaymsg.
+
+### tiling-indicator.py
+
+Requirements:
+
+* Python 3
+* `i3ipc` python package
+
+Description:
+
+Show splitting layout indicator
