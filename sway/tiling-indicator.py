@@ -54,9 +54,9 @@ layouts = { "tabbed":  ("61bbf6", "\uf24d")
 # layouts = {"tabbed":"\ue8d8", "stacked":"\ue3c7", "splitv":"\ue947", "splith":"\ue949"}
 
 
-def on_event(self, _):
+def on_event(sway, _):
     global last
-    layout = i3.get_tree().find_focused().parent.layout
+    layout = sway.get_tree().find_focused().parent.layout
     if  not layout == last:
         ## polybar format output
         # print("%{{F#{}}}{}%{{F-}}".format(*layouts.get(layout, ("888800", "?"))))
