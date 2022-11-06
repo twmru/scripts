@@ -56,7 +56,12 @@ layouts = { "tabbed":  ("61bbf6", "\uf24d")
 
 def on_event(sway, _):
     global last
-    layout = sway.get_tree().find_focused().parent.layout
+    layout = last
+    try:
+        layout = sway.get_tree().find_focused().parent.layout
+    except AttributeError:
+        # fullscreen apps may not be focused
+        pass
     if  not layout == last:
         ## polybar format output
         # print("%{{F#{}}}{}%{{F-}}".format(*layouts.get(layout, ("888800", "?"))))
