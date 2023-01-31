@@ -89,6 +89,9 @@ def on_event(wm, _):
     layout = last
     try:
         layout = wm.get_tree().find_focused().parent.layout
+        if  layout == "output":
+            # This is empty workspace
+            layout = wm.get_tree().find_focused().layout
     except AttributeError:
         # fullscreen apps may not be focused
         pass
